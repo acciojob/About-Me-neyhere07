@@ -1,1 +1,57 @@
 
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			display: flex;
+	justify-content: space-between;
+        }
+        .profile-photo {
+            text-align: center;
+			margin-right: 20px;
+        }
+        .profile-photo img {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        .section-heading {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .about-me {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .skills {
+            margin-top: 30px;
+        }
+        .skill-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .skill-label {
+            flex: 1;
+        }
+        .skill-bar {
+            flex: 3;
+            background-color: #e0e0e0;
+            height: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .skill-progress {
+            height: 100%;
+            background-color: #4caf50;
+        }
